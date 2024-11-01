@@ -9,13 +9,15 @@
 
 a {
     text-decoration: none;
-
 }
 
 .reklama {
     background: #57D9A6;
-    text-align: center;
     padding: 20px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -23,10 +25,41 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 82px;
 }
 
 header a {
     color: white;
 
+}
+
+.cart {
+    position: relative;
+}
+
+.cart div {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #FC5468;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.cart span {
+    font-size: 12px;
+    color: white;
+}
+
+.asd {
+    color: purple;
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
 }
